@@ -9718,6 +9718,22 @@ a.text-dark:hover, a.text-dark:focus {
   width: 15rem;
 }
 
+@media (max-width: 620px) {
+  .masthead {
+    padding-top: calc(2rem + 104px);
+    padding-bottom: 2rem;
+  }
+
+  .masthead .masthead-heading {
+    font-size: 2rem;
+    line-height: 1.5rem;
+  }
+
+  .masthead .masthead-subheading {
+    font-size: 1rem;
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
